@@ -1,0 +1,6 @@
+{
+  "name": "Middle Earth Armies Builder",
+  "description": "A web application to build armies for the Middle-earth Strategy Battle Game, inspired by Lord of the Rings. Choose between Forces of Good and Evil, select armies, and add units with options to build your force.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
