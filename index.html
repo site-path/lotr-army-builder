@@ -1,11 +1,12 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+    <base href="/lotr-army-builder/">
     <title>Middle Earth Armies Builder</title>
-    <link rel="manifest" href="public/manifest.json">
+    <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1e293b">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -53,7 +54,7 @@
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('sw.js') 
+          navigator.serviceWorker.register('sw.js') // Path relative to base href
             .then(registration => {
               console.log('ServiceWorker registration successful with scope: ', registration.scope);
             })
